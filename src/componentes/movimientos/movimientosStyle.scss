@@ -1,0 +1,101 @@
+form{
+    display: grid;
+    grid-template-areas: 
+    ". labelDescripcion inpuntDescripcion ."
+    " . labelImporte inputImporte . "
+    " . labelTipoMovimiento selectTipoMovimiento  . "
+    " . labelPersona selectPersona  . "
+    " . labelPago selectPago  . "
+    " . labelFechaPago inputFechaPago  . "
+    " . labelCategorias selectCategorias  . "
+    " . labelPagado checkPagado  . "
+    " . labelProyectado inputProyectado  . "
+    " . labelAdjunto inputAdjunto  . ";
+    grid-template-columns: 30% 20% 20% 30% ;
+    grid-template-rows: repeat(10, 30px) ;
+    row-gap: 10%;
+
+    .labelDescripcion{
+        grid-area: labelDescripcion;
+    }
+
+    .inpuntDescripcion{
+        grid-area: inpuntDescripcion;
+    }
+
+    .labelImporte{
+        grid-area: labelImporte;
+    }
+
+    .inputImporte{
+        grid-area: inputImporte;
+    }
+
+    .labelImporte{
+        grid-area: labelImporte;
+    }
+
+    .labelTipoMovimiento{
+        grid-area: labelTipoMovimiento;
+    }
+
+    .selectTipoMovimiento{
+        grid-area: selectTipoMovimiento;
+    }
+
+    .labelPersona{
+        grid-area: labelPersona;
+    }
+
+    .selectPersona{
+        grid-area: selectPersona;
+    }
+
+    .labelPago{
+        grid-area: labelPago;
+    }
+
+    .selectPago{
+        grid-area: selectPago;
+    }
+    .labelFechaPago{
+        grid-area: labelFechaPago;
+    }
+
+    .inputFechaPago{
+        grid-area: inputFechaPago;
+    }
+
+    .labelCategorias{
+        grid-area: labelCategorias;
+    }
+
+    .selectCategorias{
+        grid-area: selectCategorias;
+    }
+
+    .labelPagado{
+        grid-area: labelPagado;
+    }
+
+    .checkPagado{
+        grid-area: checkPagado;
+    }
+
+    .labelProyectado{
+        grid-area: labelProyectado;
+    }
+
+    .inputProyectado{
+        grid-area: inputProyectado;
+    }
+
+    .labelAdjunto{
+        grid-area: labelAdjunto;
+    }
+
+    .inputAdjunto{
+        grid-area: inputAdjunto;
+    }
+
+}
